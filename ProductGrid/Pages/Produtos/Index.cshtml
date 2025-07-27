@@ -1,0 +1,65 @@
+@page 
+@model IndexModel  
+@{  
+    ViewData["Title"] = "Lista de Produtos";  
+}  
+
+<h1>@ViewData["Title"]</h1>  
+
+<style>  
+    .produtos-table th.id-col { width: 6%; }  
+    .produtos-table th.nome-col { width: 20%; }  
+    .produtos-table th.categoria-col { width: 13%; }  
+    .produtos-table th.preco-col { width: 10%; }  
+    .produtos-table th.loja-col { width: 13%; }  
+    .produtos-table th.marca-col { width: 12%; }  
+    .produtos-table th.data-col { width: 14%; }  
+    .produtos-table th.estoque-col { width: 12%; }  
+    .produtos-table th.nome-col, .produtos-table td.nome-col {  
+        max-width: 220px;  
+        min-width: 120px;  
+        width: 20%;  
+        white-space: nowrap;  
+        overflow: hidden;  
+        text-overflow: ellipsis;  
+    }  
+    /* Responsividade para telas menores */  
+/*     media and (max-width: 768px) {  
+        .produtos-table th.nome-col, .produtos-table td.nome-col {  
+            max-width: 120px;  
+            width: 30%;  
+        }  */ 
+    }  
+</style>  
+
+<div class="table-responsive">  
+    <table class="table table-striped table-hover produtos-table">  
+        <thead>  
+            <tr>  
+                <th class="id-col">ID</th>  
+                <th class="nome-col">Nome</th>  
+                <th class="categoria-col">Categoria</th>  
+                <th class="preco-col">Preço</th>  
+                <th class="loja-col">Loja</th>  
+                <th class="marca-col">Marca</th>  
+                <th class="data-col">Data Lançamento</th>  
+                <th class="estoque-col">Estoque</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            @foreach (var produto in Model.Produtos)  
+            {  
+                <tr>  
+                    <td>@produto.Id</td>  
+                    <td class="nome-col" title="@produto.Nome">@produto.Nome</td>  
+                    <td>@produto.Categoria</td>  
+                    <td>@produto.Preco.ToString("C")</td>  
+                    <td>@produto.LojaVendedora</td>  
+                    <td>@produto.Marca</td>  
+                    <td>@produto.DataLancamento.ToShortDateString()</td>  
+                    <td>@produto.QuantidadeEstoque</td>  
+                </tr>  
+            }  
+        </tbody>  
+    </table>  
+</div>

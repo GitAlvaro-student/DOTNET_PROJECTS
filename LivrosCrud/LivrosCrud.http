@@ -1,0 +1,6 @@
+@LivrosCrud_HostAddress = http://localhost:5265
+
+GET {{LivrosCrud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

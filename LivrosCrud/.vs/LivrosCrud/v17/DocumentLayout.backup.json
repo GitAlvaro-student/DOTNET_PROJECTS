@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\livroscrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:livroscrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\livroscrud\\appdbcontextlivro\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF7FB1-2C34-46E3-AE2C-8DD4EB83E71C}|LivrosCrud.csproj|solutionrelative:appdbcontextlivro\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T01:02:36.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T01:02:03.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\AppDbContextLivro\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContextLivro\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\AppDbContextLivro\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContextLivro\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:59:41.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Models\\Livro.cs",
+              "RelativeDocumentMoniker": "Models\\Livro.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Models\\Livro.cs",
+              "RelativeToolTip": "Models\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:57:46.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LivrosCrud",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\LivrosCrud.csproj",
+              "RelativeDocumentMoniker": "LivrosCrud.csproj",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\LivrosCrud.csproj",
+              "RelativeToolTip": "LivrosCrud.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T00:57:22.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\LivrosCrud\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:56:45.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

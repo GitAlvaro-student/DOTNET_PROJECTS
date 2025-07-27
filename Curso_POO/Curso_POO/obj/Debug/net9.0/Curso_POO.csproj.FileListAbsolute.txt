@@ -1,0 +1,14 @@
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\bin\Debug\net9.0\Curso_POO.exe
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\bin\Debug\net9.0\Curso_POO.deps.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\bin\Debug\net9.0\Curso_POO.runtimeconfig.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\bin\Debug\net9.0\Curso_POO.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\bin\Debug\net9.0\Curso_POO.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.AssemblyInfoInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.AssemblyInfo.cs
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.csproj.CoreCompileInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\refint\Curso_POO.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\Curso_POO.genruntimeconfig.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Curso_POO\obj\Debug\net9.0\ref\Curso_POO.dll

@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\curso_poo\\portifolioseguros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|solutionrelative:curso_poo\\portifolioseguros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\curso_poo\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|solutionrelative:curso_poo\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\consoleapp1\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|solutionrelative:consoleapp1\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\consoleapp1\\titular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C54D49-CB76-45F4-AF14-583B85FF02A1}|ConsoleApp1\\Banco.csproj|solutionrelative:consoleapp1\\titular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\curso_poo\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|solutionrelative:curso_poo\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\curso_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|solutionrelative:curso_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\curso_poo\\curso_poo\\tiposeguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5059D8B3-6BE6-4832-9994-A3D422C6F39F}|Curso_POO\\Curso_POO.csproj|solutionrelative:curso_poo\\tiposeguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:05:28.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Titular.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Titular.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Titular.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Titular.cs",
+              "RelativeToolTip": "ConsoleApp1\\Titular.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:59:14.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Banco.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Banco.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\ConsoleApp1\\Banco.cs",
+              "RelativeToolTip": "ConsoleApp1\\Banco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:59:05.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TipoSeguro.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\TipoSeguro.cs",
+              "RelativeDocumentMoniker": "Curso_POO\\TipoSeguro.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\TipoSeguro.cs",
+              "RelativeToolTip": "Curso_POO\\TipoSeguro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:30:23.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Empresa.cs",
+              "RelativeDocumentMoniker": "Curso_POO\\Empresa.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Empresa.cs",
+              "RelativeToolTip": "Curso_POO\\Empresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:00:15.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Program.cs",
+              "RelativeDocumentMoniker": "Curso_POO\\Program.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Program.cs",
+              "RelativeToolTip": "Curso_POO\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:17:33.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PortifolioSeguros.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\PortifolioSeguros.cs",
+              "RelativeDocumentMoniker": "Curso_POO\\PortifolioSeguros.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\PortifolioSeguros.cs",
+              "RelativeToolTip": "Curso_POO\\PortifolioSeguros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:15:26.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seguro.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Seguro.cs",
+              "RelativeDocumentMoniker": "Curso_POO\\Seguro.cs",
+              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\Curso_POO\\Curso_POO\\Seguro.cs",
+              "RelativeToolTip": "Curso_POO\\Seguro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:54:22.778Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

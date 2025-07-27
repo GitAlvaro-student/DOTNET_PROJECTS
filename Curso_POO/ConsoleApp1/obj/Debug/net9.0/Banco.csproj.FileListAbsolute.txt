@@ -1,0 +1,14 @@
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\bin\Debug\net9.0\Banco.exe
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\bin\Debug\net9.0\Banco.deps.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\bin\Debug\net9.0\Banco.runtimeconfig.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\bin\Debug\net9.0\Banco.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\bin\Debug\net9.0\Banco.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.AssemblyInfoInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.AssemblyInfo.cs
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.csproj.CoreCompileInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\refint\Banco.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\Banco.genruntimeconfig.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\ConsoleApp1\obj\Debug\net9.0\ref\Banco.dll

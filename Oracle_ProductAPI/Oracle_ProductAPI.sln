@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle_ProductAPI", "Oracle_ProductAPI.csproj", "{DAD7B675-E642-43CE-A828-6B911AC06749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD7B675-E642-43CE-A828-6B911AC06749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD7B675-E642-43CE-A828-6B911AC06749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD7B675-E642-43CE-A828-6B911AC06749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD7B675-E642-43CE-A828-6B911AC06749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEDB2EBB-6EDC-46B1-A99D-A452622A5125}
+	EndGlobalSection
+EndGlobal

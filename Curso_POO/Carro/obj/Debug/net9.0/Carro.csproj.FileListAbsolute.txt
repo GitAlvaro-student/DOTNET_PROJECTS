@@ -1,0 +1,14 @@
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\bin\Debug\net9.0\Carro.exe
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\bin\Debug\net9.0\Carro.deps.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\bin\Debug\net9.0\Carro.runtimeconfig.json
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\bin\Debug\net9.0\Carro.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\bin\Debug\net9.0\Carro.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.AssemblyInfoInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.AssemblyInfo.cs
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.csproj.CoreCompileInputs.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\refint\Carro.dll
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.pdb
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\Carro.genruntimeconfig.cache
+C:\Users\cardo\Documents\Arquivos PC Antigo\Backup\Documentos\Trabalhos Álvaro\Conhecimentos\Codigos\Exercícios Python\LeetCode\Curso_POO\Carro\obj\Debug\net9.0\ref\Carro.dll
