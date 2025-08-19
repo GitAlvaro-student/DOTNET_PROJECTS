@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\TesteProdutos\\",
+  "WorkspaceRootPath": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85E8974D-3269-4AB5-831D-A541B7EFB090}|TesteProdutos.csproj|c:\\users\\cardo\\documents\\arquivos pc antigo\\backup\\documentos\\trabalhos \u00E1lvaro\\conhecimentos\\codigos\\exerc\u00EDcios python\\leetcode\\testeprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85E8974D-3269-4AB5-831D-A541B7EFB090}|TesteProdutos.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\testeprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85E8974D-3269-4AB5-831D-A541B7EFB090}|TesteProdutos.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E8974D-3269-4AB5-831D-A541B7EFB090}|TesteProdutos.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\testeprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E8974D-3269-4AB5-831D-A541B7EFB090}|TesteProdutos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T21:22:53.436Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\TesteProdutos\\Controllers\\ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos \u00C1lvaro\\Conhecimentos\\Codigos\\Exerc\u00EDcios Python\\LeetCode\\TesteProdutos\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAApwB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwCIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T12:58:42.846Z",
               "EditorCaption": ""

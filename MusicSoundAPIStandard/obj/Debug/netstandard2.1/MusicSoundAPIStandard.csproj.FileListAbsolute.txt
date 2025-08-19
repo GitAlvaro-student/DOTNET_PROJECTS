@@ -1,0 +1,11 @@
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\bin\Debug\netstandard2.1\MusicSoundAPIStandard.deps.json
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\bin\Debug\netstandard2.1\MusicSoundAPIStandard.dll
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\bin\Debug\netstandard2.1\MusicSoundAPIStandard.pdb
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.csproj.AssemblyReference.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.AssemblyInfoInputs.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.AssemblyInfo.cs
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.csproj.CoreCompileInputs.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.sourcelink.json
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.dll
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicSoundAPIStandard\obj\Debug\netstandard2.1\MusicSoundAPIStandard.pdb

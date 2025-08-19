@@ -1,0 +1,66 @@
+﻿@page
+@model MusicSoundWebApp.Pages.Musics.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Artista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Musica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Popularidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Duracao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbdSong[0].Ano)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TbdSong) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Musica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Popularidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duracao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ano)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.IdMusic">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.IdMusic">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.IdMusic">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

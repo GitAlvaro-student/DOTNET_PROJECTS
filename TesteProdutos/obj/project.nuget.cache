@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+HM9TPPskg=",
+  "dgSpecHash": "5HPGsKFOhSk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cardo\\Documents\\Arquivos PC Antigo\\Backup\\Documentos\\Trabalhos Álvaro\\Conhecimentos\\Codigos\\Exercícios Python\\LeetCode\\TesteProdutos\\TesteProdutos.csproj",
+  "projectFilePath": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\TesteProdutos\\TesteProdutos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cardo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\cardo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

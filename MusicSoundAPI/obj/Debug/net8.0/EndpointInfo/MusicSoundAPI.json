@@ -1,0 +1,795 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MusicSoundAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Artists/{id}": {
+      "get": {
+        "tags": [
+          "Artists"
+        ],
+        "summary": "Mostra informações de um Artista de acordo com o Id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id do Artista a ser Mostrado",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Caso a requisição seja feita com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Artists"
+        ],
+        "summary": "Deleta informações de um Artista no Banco de Dados de acordo com o Id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id do Artista a ser Deletado",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "204": {
+            "description": "Caso a Remoção seja feita com sucesso"
+          }
+        }
+      }
+    },
+    "/api/Artists": {
+      "get": {
+        "tags": [
+          "Artists"
+        ],
+        "summary": "Mostra informações de uma lista de Artistas",
+        "responses": {
+          "200": {
+            "description": "Caso a requisição seja feita com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdArtist"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdArtist"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdArtist"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Artists"
+        ],
+        "summary": "Atualiza informações de um Artista no Banco de Dados de acordo com o Id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Id do Artista a ser atualizado",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Objeto necessário para atualizar um Artista",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Caso Atualização seja feita com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Artists/api/Artists/music": {
+      "post": {
+        "tags": [
+          "Artists"
+        ],
+        "summary": "Insere informações de um Artista no Banco de Dados",
+        "requestBody": {
+          "description": "Objeto necessário para inserir uma Artista",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdArtist"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdArtist"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Caso inserção seja feita com sucesso"
+          }
+        }
+      }
+    },
+    "/api/Music/{id}": {
+      "get": {
+        "tags": [
+          "Music"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Music/Artist": {
+      "get": {
+        "tags": [
+          "Music"
+        ],
+        "parameters": [
+          {
+            "name": "idArtist",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Music/ArtistName": {
+      "get": {
+        "tags": [
+          "Music"
+        ],
+        "parameters": [
+          {
+            "name": "artistName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Music": {
+      "get": {
+        "tags": [
+          "Music"
+        ],
+        "summary": "Mostra informações de uma lista de Músicas",
+        "responses": {
+          "200": {
+            "description": "Caso a requisição seja feita com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdSong"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdSong"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TbdSong"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Music"
+        ],
+        "summary": "Insere informações de uma Música no Banco de Dados",
+        "requestBody": {
+          "description": "Objeto necessário para inserir uma Música",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Caso inserção seja feita com sucesso"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Music"
+        ],
+        "summary": "Atualiza informações de uma Música no Banco de Dados de acordo com o Id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Id da Música a ser atualizada",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Objeto necessário para atualizar uma Música",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TbdSong"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Caso Atualização seja feita com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TbdSong"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MusicService/byMusicId": {
+      "get": {
+        "tags": [
+          "MusicService"
+        ],
+        "parameters": [
+          {
+            "name": "idMusic",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MusicService/AllMusics": {
+      "get": {
+        "tags": [
+          "MusicService"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MusicService/RegisterMusic": {
+      "post": {
+        "tags": [
+          "MusicService"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMusicDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMusicDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMusicDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMusicDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MusicService/UpdateMusic": {
+      "put": {
+        "tags": [
+          "MusicService"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMusicDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMusicDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMusicDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMusicDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MusicService/DeleteMusic": {
+      "delete": {
+        "tags": [
+          "MusicService"
+        ],
+        "parameters": [
+          {
+            "name": "idMusic",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateMusicDTO": {
+        "required": [
+          "musica"
+        ],
+        "type": "object",
+        "properties": {
+          "musica": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "popularidade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "duracao": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ano": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idArtist": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TbdArtist": {
+        "required": [
+          "artista",
+          "nacionalidade"
+        ],
+        "type": "object",
+        "properties": {
+          "idArtist": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "artista": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "genero": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "nacionalidade": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nascimento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tbdSongs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TbdSong"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TbdSong": {
+        "required": [
+          "musica"
+        ],
+        "type": "object",
+        "properties": {
+          "idMusic": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "musica": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "popularidade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "duracao": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ano": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idArtist": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idArtistNavigation": {
+            "$ref": "#/components/schemas/TbdArtist"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMusicDTO": {
+        "required": [
+          "musica"
+        ],
+        "type": "object",
+        "properties": {
+          "musica": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "popularidade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "duracao": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ano": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idArtist": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

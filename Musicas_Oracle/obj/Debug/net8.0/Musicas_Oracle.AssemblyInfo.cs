@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Musicas_Oracle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ba1348a076b1a5441743425a8858fc15e69bf28")]
 [assembly: System.Reflection.AssemblyProductAttribute("Musicas_Oracle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Musicas_Oracle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\models\\tbdsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:models\\tbdsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\musics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\musics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|c:\\users\\cardo\\source\\repos\\gitalvaro-student\\dotnet_projects\\musicsoundwebapp\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CD4528-609B-4732-BD41-2B9D13BC26AF}|MusicSoundWebApp.csproj|solutionrelative:data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TbdSong.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Models\\TbdSong.cs",
+              "RelativeDocumentMoniker": "Models\\TbdSong.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Models\\TbdSong.cs",
+              "RelativeToolTip": "Models\\TbdSong.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:32:27.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Musics\\Index.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:29:53.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Musics\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:29:53.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Musics\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:29:53.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Musics\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:29:53.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Musics\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:29:53.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Details.cshtml",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Musics\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:29:53.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Musics\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:29:53.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Musics\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:29:53.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Musics\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:29:53.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Musics\\Create.cshtml",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Musics\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Musics\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:29:52.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Data\\ModelContext.cs",
+              "RelativeDocumentMoniker": "Data\\ModelContext.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Data\\ModelContext.cs",
+              "RelativeToolTip": "Data\\ModelContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:18:13.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:01:51.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T01:00:02.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\cardo\\source\\repos\\GitAlvaro-student\\DOTNET_PROJECTS\\MusicSoundWebApp\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "Pages\\Error.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:00:42.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

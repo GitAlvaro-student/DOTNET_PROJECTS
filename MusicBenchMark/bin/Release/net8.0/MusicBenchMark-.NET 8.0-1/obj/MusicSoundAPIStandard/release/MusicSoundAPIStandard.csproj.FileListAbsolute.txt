@@ -1,0 +1,11 @@
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\bin\Release\net8.0\MusicSoundAPIStandard.deps.json
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\bin\Release\net8.0\MusicSoundAPIStandard.dll
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\bin\Release\net8.0\MusicSoundAPIStandard.pdb
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.csproj.AssemblyReference.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.AssemblyInfoInputs.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.AssemblyInfo.cs
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.csproj.CoreCompileInputs.cache
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.sourcelink.json
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.dll
+C:\Users\cardo\source\repos\GitAlvaro-student\DOTNET_PROJECTS\MusicBenchMark\bin\Release\net8.0\MusicBenchMark-.NET 8.0-1\obj\MusicSoundAPIStandard\release\MusicSoundAPIStandard.pdb
