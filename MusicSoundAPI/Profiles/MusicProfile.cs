@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using MusicSoundAPI.Data.Dtos;
+using MusicSoundAPI.Data.Dtos.Music;
 using MusicSoundAPI.Models;
 
 namespace MusicSoundAPI.Profiles

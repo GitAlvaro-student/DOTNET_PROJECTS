@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace MusicSoundAPI.Models;
@@ -22,7 +21,7 @@ public partial class TbdSong
 
     [Column("POPULARIDADE")]
     [Precision(3)]
-    public int Popularidade { get; set; }
+    public int? Popularidade { get; set; }
 
     [Column("DURACAO")]
     [Precision(10)]
@@ -33,7 +32,7 @@ public partial class TbdSong
     public int Ano { get; set; }
 
     [Column("ID_ARTIST", TypeName = "NUMBER")]
-    public int IdArtist { get; set; }
+    public int? IdArtist { get; set; }
 
     [ForeignKey("IdArtist")]
     [InverseProperty("TbdSongs")]

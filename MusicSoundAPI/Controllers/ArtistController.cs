@@ -1,50 +1,54 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MusicSoundAPI.ApplicationDbContext;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using MusicSoundAPI.Data.Dtos.Artist;
 using MusicSoundAPI.Models;
-using MusicSoundAPI.Repository.Artist;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using MusicSoundAPI.Services.Artist;
 
 namespace MusicSoundAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ArtistsController : ControllerBase
+    public class ArtistController : ControllerBase
     {
-        private readonly IArtistRepository _artistRepository;
+        private readonly IArtistService _artistService;
+        private readonly ILogger<ArtistController> _logger;
 
-        public ArtistsController(IArtistRepository artistRepository)
+        public ArtistController(IArtistService artistService, ILogger<ArtistController> logger)
         {
-            _artistRepository = artistRepository;
+            _artistService = artistService;
+            _logger = logger;
         }
 
         /// <summary>
         /// Mostra informações de um Artista de acordo com o Id
         /// </summary>
-        /// <param name="id">Id do Artista a ser Mostrado</param>
+        /// <param name="idArtist">Id do Artista a ser Mostrado</param>
         /// <returns>IActionResult</returns>
         /// <response code="200">Caso a requisição seja feita com sucesso</response>
-        [HttpGet("{id}")]
-        public async Task<ActionResult<TbdArtist>> GetArtistById(int id)
+        [HttpGet("{idArtist}")]
+        public async Task<IActionResult> GetArtistById(int idArtist)
         {
-            var artist = await _artistRepository.GetArtistById(id);
+            var artist = await _artistService.GetArtistById(idArtist);
+            _logger.LogInformation($"Buscando Artista pelo Id {idArtist}");
 
             if (artist == null)
             {
+                _logger.LogInformation($"Artista de Id {idArtist} nâo encontrado");
                 return NotFound("Artista Não Encontrado!!");
             }
 
             return Ok(artist);
         }
+
         /// <summary>
         /// Mostra informações de uma lista de Artistas
         /// </summary>
         /// <returns>IActionResult</returns>
         /// <response code="200">Caso a requisição seja feita com sucesso</response>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TbdArtist>>> GetAllArtists()
+        public async Task<IActionResult> GetAllArtists()
         {
-            var artist = await _artistRepository.GetArtists();
+            var artist = await _artistService.GetArtists();
             var artistCount = artist.Count();
 
             if (artist == null)
@@ -55,7 +59,7 @@ namespace MusicSoundAPI.Controllers
             return Ok(new
             {
                 Mensagem = $"{artistCount} Artistas Registrados",
-                Dados = artist.OrderBy(m => m.IdArtist).Take(10)
+                Dados = artist.OrderBy(m => m.Artista).Take(10)
             });
         }
 
@@ -65,17 +69,29 @@ namespace MusicSoundAPI.Controllers
         /// <param name="artist">Objeto necessário para inserir uma Artista</param>
         /// <returns>IActionResult</returns>
         /// <response code="201">Caso inserção seja feita com sucesso</response>
-        [Route("api/[controller]/music")]
+        [Route("RegisterArtist")]
         [HttpPost]
-        public async Task<ActionResult<TbdArtist>> PostArtist(TbdArtist artist)
+        public async Task<ActionResult<TbdArtist>> PostArtist(CreateArtistDTO artist)
         {
-            if (!ModelState.IsValid)
+            _logger.LogInformation($"Executando Método {HttpContext.Request.PathBase}");
+            try
             {
-                return BadRequest(ModelState);
-            }
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError($"Dados Inválidos Enviados" +
+                        $"{artist}");
+                    return BadRequest(ModelState);
+                }
 
-            await _artistRepository.InsertArtist(artist);
-            return CreatedAtAction(nameof(GetAllArtists), new { id = artist.IdArtist }, artist);
+                await _artistService.PostArtist(artist);
+                return CreatedAtAction(nameof(GetAllArtists), new { name = artist.Artista }, artist);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"O seguinte erro ocorreu {ex.Message}");
+                return BadRequest();
+            }
 
         }
 
@@ -86,17 +102,17 @@ namespace MusicSoundAPI.Controllers
         /// <param name="artist">Objeto necessário para atualizar um Artista</param>
         /// <returns>IActionResult</returns>
         /// <response code="200">Caso Atualização seja feita com sucesso</response>
-        [HttpPut]
-        public async Task<ActionResult<TbdArtist>> PutArtist(int id, TbdArtist artist)
+        [HttpPut("UpdateArtist")]
+        public async Task<IActionResult> PutArtist(int id, UpdateArtistDTO artist)
         {
-            var music = await _artistRepository.GetArtistById(id);
+            var music = await _artistService.GetTbdArtistById(id);
 
             if (music == null)
             {
                 return NotFound("Artista Não Encontrado!!");
             }
 
-            await _artistRepository.UpdateArtist(music, artist);
+            await _artistService.PutArtist(music, artist);
             return StatusCode(201, artist);
         }
 
@@ -106,10 +122,14 @@ namespace MusicSoundAPI.Controllers
         /// <param name="id">Id do Artista a ser Deletado</param>
         /// <returns>IActionResult</returns>
         /// <response code="204">Caso a Remoção seja feita com sucesso</response>
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        [HttpDelete("DeleteArtist")]
+        public async Task<IActionResult> DeleteArtist(int id)
         {
-            await _artistRepository.DeleteArtist(id);
+            var artist = await _artistService.GetTbdArtistById(id);
+            if (artist == null)
+                return NotFound("Artista Nao Encontrado");
+
+            await _artistService.DeleteArtist(artist);
             return Ok(new
             {
                 Mensagem = $"Artista de Id {id} Apagado!"

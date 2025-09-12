@@ -1,10 +1,7 @@
-﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore.Metadata;
-using MusicSoundAPI.Data.Dtos;
+﻿using MusicSoundAPI.Data.Dtos.Music;
 using MusicSoundAPI.Models;
-using MusicSoundAPI.Repository.Music;
 
-namespace MusicSoundAPI.Services
+namespace MusicSoundAPI.Services.Music
 {
     public interface IMusicService
     {

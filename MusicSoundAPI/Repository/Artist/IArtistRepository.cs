@@ -9,6 +9,6 @@ namespace MusicSoundAPI.Repository.Artist
         int GetIdArtistByName(string artistName);
         Task InsertArtist(TbdArtist artist);
         Task UpdateArtist(TbdArtist artist, TbdArtist newArtist);
-        Task DeleteArtist(int IdArtist);
+        Task DeleteArtist(TbdArtist IdArtist);
     }
 }

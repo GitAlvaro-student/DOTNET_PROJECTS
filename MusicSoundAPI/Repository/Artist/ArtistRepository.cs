@@ -40,15 +40,11 @@ namespace MusicSoundAPI.Repository.Artist
             await appDbContext.SaveChangesAsync();
         }
 
-        public async Task DeleteArtist(int id)
+        public async Task DeleteArtist(TbdArtist artist)
         {
-            TbdArtist artist = appDbContext.TbdArtists.Find(id);
+            appDbContext.TbdArtists.Remove(artist);
+            await appDbContext.SaveChangesAsync();
 
-            if (artist != null)
-            {
-                appDbContext.TbdArtists.Remove(artist);
-                await appDbContext.SaveChangesAsync();
-            }
         }
     }
 

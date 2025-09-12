@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using MusicSoundAPI.Data.Dtos;
+using MusicSoundAPI.Data.Dtos.Music;
 using MusicSoundAPI.Models;
 using MusicSoundAPI.Repository.Music;
 using System;
 
-namespace MusicSoundAPI.Services
+namespace MusicSoundAPI.Services.Music
 {
     public class MusicService : IMusicService
     {
