@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using MusicSoundAPI.Data.Dtos.Music;
 using MusicSoundAPI.Models;
 using MusicSoundAPI.Services.Music;
+using Newtonsoft.Json;
+using Serilog;
 
 namespace MusicSoundAPI.Controllers
 {
@@ -29,6 +31,10 @@ namespace MusicSoundAPI.Controllers
         public async Task<IActionResult> GetMusicById(int idMusic)
         {
             var song = await _musicService.GetMusicById(idMusic);
+
+            var log = SetLog(LogLevel.Information.ToString(), "Sucesso!", "GetMusicById", idMusic);
+            Log.Information(log);
+
             return Ok(song);
         }
 
@@ -41,6 +47,10 @@ namespace MusicSoundAPI.Controllers
         public async Task<IActionResult> GetAllMusics()
         {
             var song = await _musicService.GetMusics();
+
+            var log = SetLog(LogLevel.Information.ToString(), "Sucesso!", "GetAllMusics");
+            Log.Information(log);
+
             return Ok(song);
         }
 
@@ -59,6 +69,10 @@ namespace MusicSoundAPI.Controllers
             }
 
             await _musicService.InsertMusic(music);
+
+            var log = SetLog(LogLevel.Information.ToString(), "Sucesso!", "PostMusic", music);
+            Log.Information(log);
+
             return CreatedAtAction(nameof(PostMusic), music);
 
         }
@@ -107,6 +121,31 @@ namespace MusicSoundAPI.Controllers
 
             await _musicService.DeleteMusic(song);
             return Content("Musica Deletada!!");
+        }
+
+        private string SetLog(string level, string message, string source, object parameters = null)
+        {
+            HttpContext.Items["Message"] = $"{HttpContext.Request.Method} {HttpContext.Request.Path} responded {HttpContext.Response.StatusCode}";
+            HttpContext.Items["Source"] = source;
+            HttpContext.Items["Properties"] = new Dictionary<string, object>()
+            {
+                {"Properties", parameters }
+            };
+            var dict = new Dictionary<string, object>();
+            dict.Add("Properties", parameters);
+
+            var log = new LogEntry
+            {
+                Timestamp = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"),
+                Level = level,
+                Message = message,
+                Source = source,
+                Properties = dict
+            };
+
+            var newLog = JsonConvert.SerializeObject(log);
+
+            return newLog;
         }
     }
 }

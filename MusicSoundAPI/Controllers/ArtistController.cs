@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using MusicSoundAPI.Data.Dtos.Artist;
 using MusicSoundAPI.Models;
 using MusicSoundAPI.Services.Artist;
+using Newtonsoft.Json;
+using Serilog;
 
 namespace MusicSoundAPI.Controllers
 {
@@ -33,9 +35,15 @@ namespace MusicSoundAPI.Controllers
 
             if (artist == null)
             {
-                _logger.LogInformation($"Artista de Id {idArtist} nâo encontrado");
+                //_logger.LogInformation($"Artista de Id {idArtist} nâo encontrado");
+                var nullLog = SetLog(LogLevel.Information.ToString(), $"Artista não encontrado", "GetArtistById", idArtist);
+                Log.Information(nullLog);
+
                 return NotFound("Artista Não Encontrado!!");
             }
+
+            var log = SetLog(LogLevel.Information.ToString(), "Sucesso!", "GetArtistById", idArtist);
+            Log.Information(log);
 
             return Ok(artist);
         }
@@ -53,8 +61,14 @@ namespace MusicSoundAPI.Controllers
 
             if (artist == null)
             {
-                return NotFound("Artista Não Encontrado!!");
+                var nullLog = SetLog(LogLevel.Information.ToString(), $"Artistas não encontrados", "GetAllArtists");
+                Log.Information(nullLog);
+
+                return NotFound("Artistas Não Encontrados!!");
             }
+
+            var log = SetLog(LogLevel.Information.ToString(), "Sucesso!", "GetAllArtists");
+            Log.Information(log);
 
             return Ok(new
             {
@@ -134,6 +148,31 @@ namespace MusicSoundAPI.Controllers
             {
                 Mensagem = $"Artista de Id {id} Apagado!"
             });
+        }
+
+        private string SetLog(string level, string message, string source, object parameters = null)
+        {
+            HttpContext.Items["Message"] = $"{HttpContext.Request.Method} {HttpContext.Request.Path} responded {HttpContext.Response.StatusCode}";
+            HttpContext.Items["Source"] = source;
+            HttpContext.Items["Properties"] = new Dictionary<string, object>()
+            {
+                {"Properties", parameters }
+            };
+            var dict = new Dictionary<string, object>();
+            dict.Add("Properties", parameters);
+
+            var log = new LogEntry
+            {
+                Timestamp = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"),
+                Level = level,
+                Message = message,
+                Source = source,
+                Properties = dict
+            };
+
+            var newLog = JsonConvert.SerializeObject(log);
+
+            return newLog;
         }
     }
 }

@@ -67,14 +67,10 @@ namespace MusicSoundAPI.Middleware
             var logEntry = new LogEntry
             {
                 Level = "Information",
-                Message = $"HTTP {context.Request.Method} {context.Request.Path} responded {context.Response.StatusCode}",
-                Source = "WebAPI",
+                Message = context.Items["Message"] as string,
+                Source = context.Items["Source"] as string,
                 CorrelationId = correlationId,
-                Properties = new Dictionary<string, object>
-                {
-                    ["StatusCode"] = context.Response.StatusCode,
-                    ["ElapsedMilliseconds"] = elapsed
-                }
+                Properties = context.Items["Properties"] as Dictionary<string, object>
             };
 
             await _azureLogService.SendLogAsync(logEntry);

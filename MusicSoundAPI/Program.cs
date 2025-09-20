@@ -1,22 +1,36 @@
+using FailureLogging.Logging;
 using Microsoft.EntityFrameworkCore;
-using MusicSoundAPI.ApplicationDbContext;
-using MusicSoundAPI.Repository;
 using Microsoft.OpenApi.Models;
-using MusicSoundAPIStandard.Repository;
-using MusicSoundAPIStandard.Interfaces;
-using System.Reflection;
-using MusicSoundAPI.Repository.Music;
-using MusicSoundAPI.Repository.Artist;
+using MusicSoundAPI.ApplicationDbContext;
+using MusicSoundAPI.Middleware;
 using MusicSoundAPI.Profiles;
-using MusicSoundAPI.Services;
+using MusicSoundAPI.Repository.Artist;
+using MusicSoundAPI.Repository.Music;
+using MusicSoundAPI.Repository.Playlist;
+using MusicSoundAPI.Services.Artist;
+using MusicSoundAPI.Services.Azure;
+using MusicSoundAPI.Services.Music;
+using MusicSoundAPI.Services.Playlist;
+using MusicSoundAPIStandard.Interfaces;
+using MusicSoundAPIStandard.Repository;
+using Serilog;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configurar Serilog
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.WriteTo.Console()
+        .WriteTo.File("logs/app-.txt", rollingInterval: RollingInterval.Day);
+});
 
 var connectionString = builder.Configuration.GetConnectionString("DEV");
 builder.Services.AddDbContext<ModelContext>(options => options.UseOracle(connectionString));
 
 //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(MusicProfile));
+builder.Services.AddAutoMapper(typeof(ArtistProfile));
 
 // Add services to the container.
 
@@ -32,17 +46,27 @@ builder.Services.AddSwaggerGen( c =>
     c.IncludeXmlComments(xmlPath);
 });
 
-
-
+builder.Services.AddSingleton<IAzureLogService, AzureLogService>();
+builder.Services.AddScoped<IMusicService, MusicService>();
+builder.Services.AddScoped<IArtistService, ArtistService>();
 builder.Services.AddScoped<IMusicRepository, MusicRepository>();
 builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
-builder.Services.AddScoped<IMusicService, MusicService>();
+builder.Services.AddScoped<IPlaylistRepository, PlaylistRepository>();
+builder.Services.AddScoped<IPlaylistService, PlaylistService>();
+builder.Services.AddScoped<ISongRepository>(provider => new SongRepository(builder.Configuration.GetConnectionString("DEV")));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddScoped<ISongRepository>(provider => new SongRepository(builder.Configuration.GetConnectionString("DEV")));
+
+builder.Logging.ClearProviders();
+builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration()
+{
+    LogLevel = LogLevel.Information
+}));
 
 var app = builder.Build();
+
+app.UseMiddleware<LoggingMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
